@@ -1,0 +1,190 @@
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  font-size: 50px;
+  font-family: "NotoSerif", sans-serif;
+  font-weight: 700;
+  color: #14183e;
+  text-align: center;
+}
+
+.slider {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  transform: scale(0.9);
+}
+
+.slick-slide.slick-current {
+  transform: scale(1);
+}
+/* testing */
+.card {
+  /* width: calc((100% - 90px) / 3); */
+  border-radius: 24px;
+  box-shadow: 0px 16px 26px #00000017;
+  /* margin-right: 12px; */
+}
+
+.card-image {
+  width: 100%;
+  border-top-left-radius: 24px; 
+  border-top-right-radius: 24px;
+   object-fit: fill; 
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.description p {
+  font-size: 18px;
+  font-family: "NotoSans", sans-serif;
+  color: #5e6282;
+  font-weight: 600;
+}
+
+.days {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #5e6282;
+  font-weight: 700;
+  padding-bottom: 43px;
+}
+
+.days::before {
+  content: "";
+  background: url("../img/navlogo.png") no-repeat center/contain;
+  display: inline-block;
+  width: 20px;
+  height: 11px;
+  padding-left: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .slider {
+    width: 90%;
+  }
+
+  .container {
+    max-width: 450px;
+    padding: 10px;
+  }
+
+  .card {
+    margin: 0 15px;
+  }
+
+  .slick-prev {
+    left: -5%;
+    z-index: 3;
+  }
+
+  .slick-next {
+    right: -1%;
+  }
+
+  .slick-slide {
+    transform: scale(0.9);
+  }
+  .slick-slide.slick-current {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    width: 75%;
+  }
+
+  .container {
+    max-width: 500px;
+    padding: 10px;
+  }
+
+  .card {
+    margin: 0 7px;
+  }
+
+  .slick-prev {
+    left: -8%;
+  }
+
+  .slick-next {
+    right: -5%;
+  } 
+  .slick-slide {
+    transform: scale(0.9);
+  }
+  .slick-slide.slick-current {
+    transform: scale(1);
+    
+  }
+  .container h2 {
+    font-size: 40px;
+}
+
+.description p {
+    font-size: 16px;
+}
+
+.days {
+    font-size: 15px;
+}
+
+}
+
+@media screen and (max-width: 525px) {
+  .slider {
+    width: 95%;
+  }
+
+  .container {
+    max-width: 450px;
+    padding: 10px;
+  }
+
+  .card {
+    margin: 0 50px;
+  }
+
+  .slick-prev {
+    left: 10px;
+  }
+
+  .slick-next {
+    right: 26px;
+  }
+  .slick-slide {
+    transform: scale(0.9);
+  }
+  .slick-slide.slick-current {
+    transform: scale(1);
+    
+  }
+  .container h2 {
+    font-size: 30px;
+}
+
+.description p {
+    font-size: 16px;
+}
+
+.days {
+    font-size: 15px;
+}
+
+}

@@ -18,19 +18,9 @@ $(document).ready(function () {
 
     responsive: [
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          centerMode: false,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: false,
         },

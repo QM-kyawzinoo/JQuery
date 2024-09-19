@@ -35,6 +35,9 @@
   box-shadow: 0px 16px 26px #00000017;
   /* margin-right: 12px; */
 }
+.slick-prev {
+  z-index: 3;
+}
 
 .card-image {
   width: 100%;
@@ -74,7 +77,7 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .slider {
     width: 90%;
   }
@@ -103,7 +106,7 @@
   .slick-slide.slick-current {
     transform: scale(1);
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   .slider {
@@ -147,7 +150,7 @@
 
 }
 
-@media screen and (max-width: 525px) {
+/* @media screen and (max-width: 525px) {
   .slider {
     width: 95%;
   }
@@ -187,4 +190,4 @@
     font-size: 15px;
 }
 
-}
+} */
